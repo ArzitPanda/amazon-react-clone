@@ -1,27 +1,72 @@
-.headerContainer
-{
-    width:100%;
-    height:12vh;
-    
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+.headerContainer {
+  width: 100%;
+  height: 12vh;
 
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
-    background-color:rgb(19,25,33)
-
+  background-color: rgb(19, 25, 33);
 }
 
-
-
-.logo-amz
-
-{   margin-top:30px;
-    margin-left:30px;
+.logo-amz {
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-.input-search
-{
-    padding:10px 200px;
-    margin-right:20vw;
+.search__box {
+  display: flex;
+  align-items: center;
+}
+
+.input-search {
+  height: 3.7vh;
+  width: 50vw;
+}
+.search_icon {
+  color: wheat;
+  padding: 2.17px;
+  width:30px;
+  height: 4vh;
+
+  transform: translateX(-4px);
+  background-color: orange;
+  border-radius: 0 20% 20% 0;
+  cursor: pointer;
+}
+
+.signin {
+  color: wheat;
+  cursor: pointer;
+}
+.ShoppingCart {
+  color: wheat;
+  cursor: pointer;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  border-radius: 50%;
+
+  transform: translateY(-33px);
+  margin-left: 13px;
+}
+.cart-items {
+  color: black;
+  font-size: 10px;
+}
+
+.secondtest {
+  font-size: x-large;
+  transform: translateY(-4px);
+}
+.firsttest {
+  filter: opacity(20%);
+  font-size: small;
+  transform: translateY(4px);
 }
